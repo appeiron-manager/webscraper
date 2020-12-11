@@ -92,7 +92,7 @@ export class ScraperController {
 
     await page.screenshot("example1.png");
 
-    //items.forEach(item => { console.info(item)});
+    //items.forEach(item => { console.info(item)});  
     console.info(businessLinks[0]);
 
     //Go to business page(Open new page with item href)
